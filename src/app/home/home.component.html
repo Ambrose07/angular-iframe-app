@@ -1,0 +1,6 @@
+<div>
+    <p>welcome to home page!</p>
+    <button (click)="callIframe()">change frame counter</button>
+    <div>counter : {{counter}}</div>
+    <iframe #iframe (load)="onLoad()" id="iframe" width="300" height="300"></iframe>
+</div>
